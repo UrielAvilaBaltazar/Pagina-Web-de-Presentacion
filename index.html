@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web HTML</title>
+    <link rel="preload" href="\css/normalize.css" as="style">
+    <link rel="stylesheet" href="\css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preload" href="\css/style.css" as="style">
+    <link rel="stylesheet" href="\css/style.css">
+</head>
+<body>
+    <header>
+       <h1 class="titulo">Uriel Avila - <span>Freelancer Disigner</span>  </h1> 
+    </header>
+    <div class="bg">
+        <nav class="principal contenedor">
+            <a href="/html/sombre_mi.html">Sobre Mi</a>
+            <a href="/html/portafolio.html">Portafolio</a>
+            <a href="/html/contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="fondo1 imagen">
+        <div class="contenedor-imagen">
+            <h2>Diseño y Desarrollo Web</h2>
+            <div class="ubicar">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <line x1="18" y1="6" x2="18" y2="6.01" />
+                    <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                    <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                    <line x1="9" y1="4" x2="9" y2="17" />
+                    <line x1="15" y1="15" x2="15" y2="20" />
+                </svg>
+                Pachuca, Hidalgo
+            </div>   
+            <a class="boton" href="/html/contacto.html">Contactar</a>
+        </div>  
+    </section>
+    
+    <main class="contenedor sombra">
+        <h2 class="titulo inicio">Inicio</h2>
+        <h2>Mis Servicios</h2>
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-chrome" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="12" cy="12" r="9" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="12" y1="9" x2="20.4" y2="9" />
+                        <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(120 12 12)" />
+                        <line x1="12" y1="9" x2="20.4" y2="9" transform="rotate(240 12 12)" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque itaque cum accusamus officiis dolor, quis id fuga commod!</p>
+            </section>
+            <section class="servicio">
+                <h3>Aplicaciones Moviles</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="7" y="4" width="10" height="16" rx="1" />
+                        <line x1="11" y1="5" x2="13" y2="5" />
+                        <line x1="12" y1="17" x2="12" y2="17.01" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio eum, qui amet illum dolore blanditiis magnam</p>
+            </section>
+            <section class="servicio">
+                <h3>Desarrollo de Videojuegos</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-gamepad" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="2" y="6" width="20" height="12" rx="2" />
+                        <path d="M6 12h4m-2 -2v4" />
+                        <line x1="15" y1="11" x2="15" y2="11.01" />
+                        <line x1="18" y1="13" x2="18" y2="13.01" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis architecto officia nesciunt, eveniet, praesentium aspernatur</p>
+            </section>
+        </div> 
+        <section>
+            <h2>Contacto</h2>
+            <form action="" class="formulario">
+                    <fieldset>
+                        <legend>Contactame llenando los siguientes campos</legend>
+                        <div class="contenedor-formulario">
+                            <div class="campo">
+                                <label>Nombre</label>
+                                <input class="input" type="text" placeholder="Nombre">
+                            </div>
+                            <div class="campo">
+                                <label>Telefono</label>
+                                <input class="input" type="tel" placeholder="Telefono">
+                            </div>
+                            <div class="campo">
+                                <label>Correo</label>
+                                <input class="input" type="email" placeholder="Correo electronico">
+                            </div>
+                            <div class="campo">
+                                <label>Mensaje</label>
+                                <textarea class="input"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="enviar">
+                            <input class="boton" type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+        </form> 
+        </section>
+    </main>
+
+    <footer class="footer">
+       <p>Todos los derechos reservados</p> 
+    </footer>
+  
+</body>
+</html>
